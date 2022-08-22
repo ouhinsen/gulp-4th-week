@@ -1,0 +1,267 @@
+@media (max-width: 1400px) {
+  .container {
+    padding: 0px 20px;
+  }
+
+  .product {
+    justify-content: center;
+    .glasses {
+      padding: 0px 20px;
+      li {
+        max-width: 30%;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0px 36px;
+  }
+  .banner {
+    background-image: none;
+    background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header-sm.png?raw=true');
+  }
+  .introduction {
+    .introbox {
+      flex-wrap: wrap;
+      li {
+        margin: 0;
+        max-width: 45%;
+      }
+    }
+  }
+  .classic {
+    .classicbox {
+      flex-wrap: wrap;
+      justify-content: center;
+      li {
+        max-width: 100%;
+        margin: 0px 180px;
+      }
+    }
+  }
+  .brand {
+    height: 100vh;
+    background-image: none;
+    background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/index-bg-sm.png?raw=true');
+    background-size: cover;
+    .brandbox {
+      flex-wrap: wrap;
+      li {
+        max-width: 100%;
+        margin-bottom: 24px;
+      }
+    }
+  }
+  .guest {
+    .comment {
+      flex-wrap: wrap;
+
+      li {
+        max-width: 48.3%;
+      }
+    }
+  }
+  /*首頁RWD*/
+  .section-banner {
+    img {
+      display: none;
+    }
+
+    height: 30vh;
+    background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-sm-1.png?raw=true'),
+      url('https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-sm-2.png?raw=true');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: left top, right top;
+  }
+
+  .product {
+    .glasses {
+      li {
+        max-width: 48%;
+      }
+    }
+  }
+  .footer {
+    .container {
+      .page {
+        font-size: 16px;
+      }
+      .sns {
+        img {
+          width: 40px;
+          height: 40px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 725px) {
+  .container {
+    padding: 0;
+    max-width: 725px;
+  }
+  .header {
+    .headerbox {
+      padding: 0px 0px;
+      flex-direction: column;
+      .headerlist {
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        li {
+          margin-left: 0px;
+          width: 50%;
+          border: 1px solid #fff;
+          text-align: center;
+
+          a {
+            display: block;
+            padding: 12px 60px;
+
+            font-size: 16px;
+            line-height: 24px;
+          }
+        }
+      }
+    }
+  }
+  /*表首RWD*/
+  .banner {
+    height: 50vh;
+    padding: 0px 12px;
+    .title {
+      padding-top: 144px;
+      h1 {
+        font-size: 24px;
+        line-height: 36px;
+      }
+      span {
+        font-size: 16px;
+        line-height: 24px;
+      }
+    }
+  }
+  .introduction {
+    padding: 0px 12px;
+    padding-bottom: 40px;
+    h2 {
+      font-size: 24px;
+      line-height: 36px;
+      padding-top: 40px;
+    }
+    .introbox {
+      li {
+        max-width: 100%;
+      }
+    }
+  }
+  .classic {
+    padding: 0px 12px;
+    .classicbox {
+      li {
+        max-width: 100%;
+        margin: 0;
+      }
+    }
+  }
+  .brand {
+    padding: 40px 12px;
+    background-image: none;
+    background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/index-bg-md.png?raw=true');
+    background-size: cover;
+    h2 {
+      font-size: 24px;
+      line-height: 36px;
+      padding-bottom: 24px;
+    }
+    .brandbox {
+      li {
+        .lgp {
+          display: none;
+        }
+        .smp {
+          display: inline;
+        }
+      }
+    }
+  }
+  .guest {
+    padding: 0px 12px;
+    .comment {
+      margin-bottom: 40px;
+      li {
+        margin-bottom: 16px;
+        max-width: 100%;
+      }
+    }
+  }
+  .opinion {
+    .container {
+      padding: 0px 12px;
+    }
+  }
+
+  /*以上為首頁RWD*/
+  .section {
+    .category {
+      font-size: 16px;
+    }
+  }
+  .product {
+    .product-title {
+      span {
+        font-size: 24px;
+        line-height: 36px;
+      }
+      h2 {
+        font-size: 24px;
+        line-height: 36px;
+      }
+    }
+    .glasses {
+      li {
+        max-width: 100%;
+      }
+    }
+  }
+  .footer {
+    padding: 0px 12px;
+    .listbox {
+      justify-content: flex-end;
+
+      .page {
+        height: 0px;
+        width: 0px;
+        display: none;
+      }
+      .tel {
+        span {
+          font-size: 16px;
+          line-height: 24px;
+          margin-right: 8px;
+        }
+      }
+    }
+
+    .connect {
+      .sns {
+        img {
+          max-width: 24px;
+          height: 24px;
+        }
+      }
+    }
+    .co {
+      flex-direction: column;
+      align-items: start;
+      .service {
+        flex-direction: column;
+        align-items: start;
+      }
+    }
+  }
+}

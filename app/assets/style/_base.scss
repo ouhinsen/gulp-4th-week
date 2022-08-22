@@ -1,0 +1,47 @@
+*,
+::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+span {
+  font-family: 'Roboto', sans-serif;
+  font-size: 48px;
+  line-height: 72px;
+}
+h1 {
+  font-size: 64px;
+  line-height: 96px;
+  color: #650300;
+  font-weight: bold;
+}
+h2 {
+  font-size: 48px;
+  line-height: 72px;
+  color: #650300;
+  font-weight: bold;
+}
+h3 {
+  font-size: 24px;
+  line-height: 36px;
+  color: #650300;
+  font-weight: bold;
+}
+h4 {
+  font-size: 20px;
+  line-height: 30px;
+}
+p {
+  font-size: 16px;
+  line-height: 24px;
+}
+img {
+  vertical-align: middle;
+  max-width: 100%;
+}
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}

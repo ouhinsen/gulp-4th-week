@@ -1,0 +1,203 @@
+.banner {
+  height: 787px;
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header.png?raw=true);
+  background-size: cover;
+  background-position: center;
+
+  span {
+    color: #650300;
+  }
+  .title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 296px;
+    span {
+      font-size: 36px;
+      line-height: 54px;
+    }
+    p {
+      display: block;
+      padding: 6px 12px;
+      background: #aa0601;
+      color: #fff;
+    }
+  }
+}
+.introduction {
+  text-align: center;
+  background: #fbf2f2;
+  padding: 80px 0px;
+
+  h3 {
+    padding: 24px 0px;
+  }
+  img {
+    max-width: 100px;
+    height: 100px;
+  }
+  p {
+    text-align: left;
+  }
+  .introbox {
+    display: flex;
+    justify-content: space-between;
+
+    li {
+      max-width: 23.6%;
+      margin-left: 24px;
+      padding-top: 32px;
+    }
+  }
+}
+/* 以上為introduction CSS*/
+
+.classic {
+  padding: 80px 0px;
+  text-align: center;
+  h2 {
+    padding-bottom: 48px;
+  }
+
+  .classicbox {
+    display: flex;
+    justify-content: space-between;
+    li {
+      max-width: 32.2%;
+      padding-bottom: 24px;
+    }
+    span {
+      color: #aa0601;
+      padding-top: 8px;
+      font-weight: bold;
+    }
+  }
+}
+.brand {
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/index-bg.png?raw=true);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 80px 0px;
+  h2 {
+    color: #fff;
+    padding-bottom: 48px;
+  }
+
+  span {
+    display: block;
+    padding: 8px;
+    color: #aa0601;
+    font-weight: bold;
+  }
+  .brandbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    li {
+      .smp {
+        display: none;
+      }
+      max-width: 50%;
+      background: #fff;
+    }
+  }
+}
+.guest {
+  padding: 80px 0px;
+
+  h2 {
+    text-align: center;
+    padding-bottom: 48px;
+  }
+  img {
+    padding-bottom: 8px;
+  }
+  p {
+    padding-top: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .comment {
+    display: flex;
+    justify-content: space-between;
+
+    li {
+      max-width: 24%;
+      box-shadow: 0px 2px 6px #00000029;
+
+      .date {
+        color: #707070;
+        padding-top: 72px;
+        padding-bottom: 16px;
+      }
+    }
+  }
+}
+.opinion {
+  background: #fbf2f2;
+  h2 {
+    text-align: center;
+    color: #650300;
+    padding-top: 80px;
+    padding-bottom: 48px;
+  }
+  .container {
+    max-width: 636px;
+  }
+  ul {
+    padding-top: 8px;
+    li {
+      padding-top: 16px;
+    }
+
+    .box {
+      height: 36px;
+      border: 1px solid #000;
+      margin-top: 8px;
+      p {
+        margin-left: 12px;
+        color: gray;
+      }
+    }
+    .box2 {
+      height: 136px;
+      border: 1px solid #000;
+      margin-top: 8px;
+      margin-bottom: 16px;
+      p {
+        margin-left: 12px;
+        color: gray;
+      }
+    }
+  }
+  .agree {
+    display: flex;
+    justify-content: space-between;
+    div {
+      background: #fff;
+      width: 24px;
+      height: 24px;
+      padding-left: 20px;
+
+      border: 2px solid #000;
+    }
+    p {
+      padding-left: 4px;
+    }
+  }
+
+  .send {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 48px;
+    padding-bottom: 80px;
+    max-width: 416px;
+    a {
+      background: #aa0601;
+      display: block;
+      color: #fff;
+      padding: 16px 0px;
+    }
+  }
+}
