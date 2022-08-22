@@ -298,11 +298,14 @@ img {
     .banner .title span {
       font-size: 36px;
       line-height: 54px; }
-    .banner .title p {
+    .banner .title a {
+      font-size: 16px;
+      line-height: 24px;
       display: block;
       padding: 6px 12px;
       background: #aa0601;
-      color: #fff; }
+      color: #fff;
+      text-decoration: none; }
 
 .introduction {
   text-align: center;
