@@ -436,15 +436,11 @@ img {
   .opinion .agree {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between; }
+    display: flex; }
     .opinion .agree div {
       background: #fff;
       width: 24px;
       height: 24px;
-      padding-left: 20px;
       border: 2px solid #000; }
     .opinion .agree p {
       padding-left: 4px; }
@@ -458,7 +454,8 @@ img {
       background: #aa0601;
       display: block;
       color: #fff;
-      padding: 16px 0px; }
+      padding: 16px 0px;
+      text-decoration: none; }
 
 .sectionlist {
   max-width: 1296px;
@@ -716,6 +713,8 @@ img {
         max-width: 100%; }
   .opinion .container {
     padding: 0px 12px; }
+    .opinion .container .agree div {
+      width: 24px; }
   /*以上為首頁RWD*/
   .section .category {
     font-size: 16px; }
