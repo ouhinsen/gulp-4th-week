@@ -13,7 +13,15 @@
     }
   }
 }
-
+@media (max-width: 1000px) {
+  .classic {
+    .classicbox {
+      span {
+        font-size: 36px;
+      }
+    }
+  }
+}
 @media (max-width: 768px) {
   .container {
     padding: 0px 36px;
@@ -202,6 +210,11 @@
   .opinion {
     .container {
       padding: 0px 12px;
+      .agree {
+        div {
+          width: 24px;
+        }
+      }
     }
   }
 
