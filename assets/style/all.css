@@ -656,21 +656,21 @@ img {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column; }
-    .header .headerbox .headerlist {
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
-      -ms-flex-pack: distribute;
-          justify-content: space-around; }
-      .header .headerbox .headerlist li {
-        margin-left: 0px;
-        width: 50%;
-        border: 1px solid #fff;
-        text-align: center; }
-        .header .headerbox .headerlist li a {
-          display: block;
-          padding: 12px 60px;
-          font-size: 16px;
-          line-height: 24px; }
+  .header .headerlist {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+    .header .headerlist li {
+      margin-left: 0px;
+      width: 50%;
+      border: 1px solid #fff;
+      text-align: center; }
+      .header .headerlist li a {
+        display: block;
+        padding: 12px 60px;
+        font-size: 16px;
+        line-height: 24px; }
   /*表首RWD*/
   .banner {
     height: 50vh;
